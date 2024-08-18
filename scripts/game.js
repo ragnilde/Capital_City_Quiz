@@ -29,8 +29,8 @@ async function loadJsonData(url) {
 
 async function initializeQuiz() {
     try {
-        questions = await loadJsonData('/json/questions.json');
-        wrongAnswersPool = await loadJsonData('/json/answers.json');
+        questions = await loadJsonData('questions.json');
+        wrongAnswersPool = await loadJsonData('answers.json');
     } catch (error) {
         console.error('Error initializing quiz:', error);
     }
