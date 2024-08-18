@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    fetch('/json/maps.json')
+    fetch('json/maps.json')
         .then(response => response.json())
         .then(data => {
             const tbody = document.querySelector('#maps-table tbody');
@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
                 const mapCell = document.createElement('td');
                 const img = document.createElement('img');
-                img.src = `/images/maps/${map.filename}`;
+                img.src = `images/maps/${map.filename}`;
                 img.alt = `Map of ${map.name}`;
                 img.style.width = '100px';
                 img.style.height = 'auto';
