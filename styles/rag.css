@@ -1,0 +1,247 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 2em;
+    color: #4caf50;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#quiz-container {
+    display: none;
+    background-color: #2a2a2a;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    max-width: 600px;
+}
+
+#current-question-number {
+    font-size: 1.2em;
+    color: #4caf50;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+#question {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+#question-image {
+    display: block;
+    width: 50%;
+    max-width: 100%;
+    height: auto;
+    margin: 10px auto;
+    border-radius: 8px;
+}
+
+#options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.option {
+    background-color: #333;
+    color: #fff;
+    border: 2px solid #4caf50;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s, transform 0.2s;
+    font-size: 1.1em;
+}
+
+.option:hover {
+    background-color: #4caf5090;
+    transform: scale(1.05);
+}
+
+#time-left {
+    font-size: 1.2em;
+    color: #4caf50;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#start-btn, #learn-btn {
+    background-color: #333;
+    color: #fff;
+    border: 2px solid #4caf50;
+    padding: 15px 30px;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s, transform 0.2s;
+    font-size: 1.2em;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+#start-btn:hover, #learn-btn:hover {
+    background-color: #4caf4f90;
+    transform: scale(1.05);
+}
+
+#flag-btn {
+    background-color: #333;
+    color: #fff;
+    border: 2px solid #4caf50;
+    padding: 15px 30px;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s, transform 0.2s;
+    font-size: 1.2em;
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-right: 10px;
+}
+
+#flag-btn:hover {
+    background-color: #4caf4f90;
+    transform: scale(1.05);
+}
+
+#map-btn {
+    background-color: #333;
+    color: #fff;
+    border: 2px solid #4caf50;
+    padding: 15px 30px;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s, transform 0.2s;
+    font-size: 1.2em;
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-right: 10px;
+}
+
+#map-btn:hover {
+    background-color: #4caf4f90;
+    transform: scale(1.05);
+}
+
+#score {
+    font-size: 1.8em;
+    color: #4caf50;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#high-scores {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.1em;
+    color: #bbb;
+}
+
+#high-scores ul {
+    list-style: none;
+    padding: 0;
+}
+
+#high-scores li {
+    background-color: #333;
+    color: #fff;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.subtext {
+    color: #f9fff9;
+    align-items: center;
+    text-align: center;
+    display: grid;
+}
+
+.hidden {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+        margin-bottom: 15px;
+    }
+
+    #quiz-container {
+        padding: 15px;
+        width: 100%;
+    }
+
+    #question {
+        font-size: 1.2em;
+    }
+
+    .option {
+        font-size: 1em;
+        padding: 8px;
+    }
+
+    #start-btn, #learn-btn, #flag-btn, #map-btn {
+        padding: 12px 20px;
+        font-size: 1em;
+        margin-top: 15px;
+    }
+
+    #score {
+        font-size: 1.5em;
+        margin-top: 25px;
+    }
+
+    #high-scores {
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 1.2em;
+    }
+
+    #question {
+        font-size: 1em;
+    }
+
+    .option {
+        font-size: 0.9em;
+        padding: 6px;
+    }
+
+    #start-btn, #learn-btn, #flag-btn, #map-btn {
+        padding: 10px 15px;
+        font-size: 0.9em;
+    }
+
+    #score {
+        font-size: 1.3em;
+    }
+
+    #high-scores {
+        font-size: 0.9em;
+    }
+}

@@ -1,0 +1,163 @@
+[
+    {
+        "name": "Amsterdam",
+        "country": "Netherlands",
+        "filename": "amsterdam.webp"
+    },
+    
+    {
+        "name": "Andorra la Vella",
+        "country": "Andorra",
+        "filename": "andorra_la_vella.webp"
+    },
+    
+    {
+        "name": "Berlin",
+        "country": "Germany",
+        "filename": "berlin.webp"
+    },
+    
+    {
+        "name": "Bratislava",
+        "country": "Slovakia",
+        "filename": "bratislava.webp"
+    },
+    
+    {
+        "name": "Brussels",
+        "country": "Belgium",
+        "filename": "brussels.webp"
+    },
+    
+    {
+        "name": "Copenhagen",
+        "country": "Denmark",
+        "filename": "copenhagen.webp"
+    },
+    
+    {
+        "name": "Dublin",
+        "country": "Ireland",
+        "filename": "dublin.webp"
+    },
+    
+    {
+        "name": "Gibraltar",
+        "country": "Gibraltar",
+        "filename": "gibraltar.webp"
+    },
+
+    {
+        "name": "Helsinki",
+        "country": "Finland",
+        "filename": "helsinki.webp"
+    },
+    
+    {
+        "name": "Lisbon",
+        "country": "Portugal",
+        "filename": "lisbon.webp"
+    },
+    
+    {
+        "name": "London",
+        "country": "United Kingdom / England",
+        "filename": "london.webp"
+    },
+    
+    {
+        "name": "Longyearbyen",
+        "country": "Svalbard",
+        "filename": "longyearbyen.webp"
+    },
+    
+    {
+        "name": "Madrid",
+        "country": "Spain",
+        "filename": "madrid.webp"
+    },
+    
+    {
+        "name": "Mariehamn",
+        "country": "Åland",
+        "filename": "mariehamn.webp"
+    },
+    
+    {
+        "name": "Nuuk",
+        "country": "Greenland",
+        "filename": "nuuk.webp"
+    },
+    
+    {
+        "name": "Oslo",
+        "country": "Norway",
+        "filename": "oslo.webp"
+    },
+    
+    {
+        "name": "Ottawa",
+        "country": "Canada",
+        "filename": "ottawa.webp"
+    },
+    
+    {
+        "name": "Paris",
+        "country": "France",
+        "filename": "paris.webp"
+    },
+    
+    {
+        "name": "Prague",
+        "country": "Czechia",
+        "filename": "prague.webp"
+    },
+
+    {
+        "name": "Reykjavik",
+        "country": "Iceland",
+        "filename": "reykjavik.webp"
+    },
+    
+    {
+        "name": "Riga",
+        "country": "Latvia",
+        "filename": "riga.webp"
+    },
+    
+    {
+        "name": "Stockholm",
+        "country": "Sweden",
+        "filename": "stockholm.webp"
+    },
+    
+    {
+        "name": "Tallinn",
+        "country": "Estonia",
+        "filename": "tallinn.webp"
+    },
+    
+    {
+        "name": "Tórshavn",
+        "country": "Faroe Islands",
+        "filename": "torshavn.webp"
+    },
+    
+    {
+        "name": "Vienna",
+        "country": "Austria",
+        "filename": "vienna.webp"
+    },
+    
+    {
+        "name": "Vilnius",
+        "country": "Lithuania",
+        "filename": "vilnius.webp"
+    },
+    
+    {
+        "name": "Washington, D.C",
+        "country": "United States of America",
+        "filename": "washington_dc.webp"
+    }
+]

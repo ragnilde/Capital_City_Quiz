@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capital City Quiz</title>
+    <link rel="stylesheet" href="styles/rag.css">
+    <link rel="shortcut icon" href="icons/09.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Capital City Quiz</h1>
+        <div id="quiz-container" style="display:none;">
+            <div id="question-number">Question <span id="current-question-number">1</span> / 50</div>
+            <div id="question"></div>
+            <img id="question-image" style="max-width: 100%; height: auto; display:none;">
+            <div id="options"></div>
+            <br>
+            <div id="timer">Time left: <span id="time-left">15</span> seconds</div>
+        </div>
+        <div id="result">Score: <span id="score">0</span> / 100</div>
+        <button id="start-btn">Start!</button>
+        <button id="learn-btn">Learn</button>
+    </div>
+
+    <script src="scripts/game.js"></script>
+</body>
+</html>
