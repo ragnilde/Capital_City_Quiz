@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
                 const mapCell = document.createElement('td');
                 const img = document.createElement('img');
-                img.src = `../images/maps/${map.filename}`;
+                img.src = `/images/maps/${map.filename}`;
                 img.alt = `Map of ${map.name}`;
                 img.style.width = '100px';
                 img.style.height = 'auto';
