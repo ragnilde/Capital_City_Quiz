@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
                 const flagCell = document.createElement('td');
                 const img = document.createElement('img');
-                img.src = `/images/flags/${flag.filename}`;
+                img.src = `images/flags/${flag.filename}`;
                 img.alt = `Flag of ${flag.name}`;
                 img.style.width = '100px';
                 img.style.height = 'auto';
