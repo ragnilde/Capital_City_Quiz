@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    fetch('../json/flags.json')
+    fetch('json/flags.json')
         .then(response => {
             if (!response.ok) {
                 throw new Error('Network response was not ok');

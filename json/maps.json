@@ -18,6 +18,12 @@
     },
     
     {
+        "name": "Bern",
+        "country": "Switzerland",
+        "filename": "bern.webp"
+    },
+    
+    {
         "name": "Bratislava",
         "country": "Slovakia",
         "filename": "bratislava.webp"
@@ -126,6 +132,12 @@
     },
     
     {
+        "name": "Rome",
+        "country": "Italy",
+        "filename": "rome.webp"
+    },
+    
+    {
         "name": "Stockholm",
         "country": "Sweden",
         "filename": "stockholm.webp"
@@ -141,6 +153,12 @@
         "name": "Tórshavn",
         "country": "Faroe Islands",
         "filename": "torshavn.webp"
+    },
+    
+    {
+        "name": "Vaduz",
+        "country": "Liechtenstein",
+        "filename": "vaduz.webp"
     },
     
     {

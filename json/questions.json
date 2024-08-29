@@ -542,6 +542,26 @@
         "image": "images/maps/washington_dc.webp"
     },
     {
+        "question": "Which capital outline is this?",
+        "correctAnswer": "Bern",
+        "image": "images/maps/bern.webp"
+    },
+    {
+        "question": "Which capital outline is this?",
+        "correctAnswer": "Rome",
+        "image": "images/maps/rome.webp"
+    },
+    {
+        "question": "Which capital outline is this?",
+        "correctAnswer": "Vaduz",
+        "image": "images/maps/bern.webp"
+    },
+    {
+        "question": "Which capital outline is this?",
+        "correctAnswer": "Vatican City",
+        "image": "images/maps/vatican_city.webp"
+    },
+    {
         "question": "What flag is this?",
         "correctAnswer": "Abu Dhabi",
         "image": "images/flags/abu_dhabi.png"

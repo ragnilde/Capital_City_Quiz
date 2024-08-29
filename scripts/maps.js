@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
                 const mapCell = document.createElement('td');
                 const img = document.createElement('img');
-                img.src = `../images/maps/${map.filename}`;
+                img.src = `images/maps/${map.filename}`;
                 img.alt = `Map of ${map.name}`;
                 img.style.width = '100px';
                 img.style.height = 'auto';
@@ -28,5 +28,14 @@ document.addEventListener('DOMContentLoaded', function() {
                 tbody.appendChild(row);
             });
         })
-        .catch(error => console.error('Error loading maps:', error));
+        .catch(error => {
+            console.error('Error loading maps:', error);
+            const tbody = document.querySelector('#maps-table tbody');
+            const errorRow = document.createElement('tr');
+            const errorCell = document.createElement('td');
+            errorCell.colSpan = 3;
+            errorCell.textContent = 'Failed to load maps data.';
+            errorRow.appendChild(errorCell);
+            tbody.appendChild(errorRow);
+        });        
 });
